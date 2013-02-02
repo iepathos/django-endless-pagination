@@ -84,7 +84,7 @@ class PageList(utils.UnicodeMixin):
         self._override_path = override_path
 
     def _endless_page(self, number, label=None):
-        """Factory function that returns a *EndlessPage* instance.
+        """Factory function that returns an *EndlessPage* instance.
 
         This method works just like a partial constructor.
         """
