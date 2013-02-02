@@ -39,9 +39,9 @@ class MultipleObjectMixin(object):
         return queryset
 
     def get_allow_empty(self):
-        """Returns True if the view should display empty lists.
+        """Return True if the view should display empty lists.
 
-        Returns False if a 404 should be raised instead.
+        Return False if a 404 should be raised instead.
 
         See original in ``django.views.generic.list.MultipleObjectMixin``.
         """
