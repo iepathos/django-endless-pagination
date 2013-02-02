@@ -22,7 +22,7 @@ class MultipleObjectMixin(object):
     def get_queryset(self):
         """Get the list of items for this view.
 
-        This must be an interable, and may be a queryset
+        This must be iterable, and may be a queryset
         (in which qs-specific behavior will be enabled).
 
         See original in ``django.views.generic.list.MultipleObjectMixin``.
@@ -41,7 +41,7 @@ class MultipleObjectMixin(object):
     def get_allow_empty(self):
         """Returns True if the view should display empty lists.
 
-        Return False if a 404 should be raised instead.
+        Returns False if a 404 should be raised instead.
 
         See original in ``django.views.generic.list.MultipleObjectMixin``.
         """
